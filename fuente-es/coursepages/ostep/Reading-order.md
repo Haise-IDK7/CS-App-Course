@@ -1,0 +1,13 @@
+### todo el mérito es de [palladian](https://github.com/palladian1)
+
+* Antes de empezar el curso: `initial-utilities` (también llamado proyecto 1a) e `initial-reverse` (no se asignó en clase)
+* Capítulo 5: `processes-shell` (proyecto 2a)
+* Capítulo 6: `initial-xv6` (proyecto 1b, pero preocúpate solo por la prueba 1)
+* Capítulo 9: `scheduling-xv6-lottery` (proyecto 2b)
+* Capítulo 24: `vm-xv6-intro` (proyecto 3b)
+* Capítulo 28: `initial-xv6` (ahora pasa la prueba 2)
+* Capítulo 29: `concurrency-xv6-threads` (proyecto 4b)
+* Capítulo 30: `concurrency-mapreduce` (proyecto 4a)
+* Capítulo 33: `concurrency-webserver` (no se asignó en clase)
+* Capítulo 42: `filesystems-checker` (proyecto 5a)
+* (no existe el 5b, y no hay proyectos para los capítulos 43 a 51)

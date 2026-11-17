@@ -23,7 +23,7 @@ Están en la página de [**Releases**](https://github.com/Haise-IDK7/CS-App-Cour
 - **Seguimiento:** marca cada curso como pendiente, en curso o completado, con fecha y apuntes propios.
 - **Planificador:** indica tus horas semanales y la app calcula la fecha estimada de cada curso y del final, según las especialidades avanzadas que elijas. Se actualiza con lo que completas.
 - **Mapa de temas:** qué se estudia en cada sección, con filtro.
-- **Los 21 documentos del repositorio**, completos y sin conexión: preguntas frecuentes, guías de cada curso (incluidos los proyectos de sistemas operativos), cursos y lecturas extra, directrices curriculares e historial de cambios. Cada uno con un resumen en español; el texto se muestra en su idioma original, el inglés.
+- **Los 21 documentos del repositorio**, completos y sin conexión: preguntas frecuentes, guías de cada curso (incluidos los proyectos de sistemas operativos), cursos y lecturas extra, directrices curriculares e historial de cambios. Todos **traducidos al español**, con un botón para ver el original en inglés. La traducción conserva los nombres de cursos y libros, el código, los comandos y los enlaces, incluidos los que llevan a una sección concreta de otro documento.
 - **Buscador** (Ctrl K) de cursos, temas y documentos; tema claro y oscuro.
 - **Exportación** del progreso como copia de seguridad, lista en Markdown (para publicarla en tu repositorio, como sugiere OSSU) u hoja de cálculo CSV.
 
@@ -53,7 +53,7 @@ Además, cada PR y cada cambio en `main` construyen los instaladores: aparecen c
 
 ## Mantener el plan al día
 
-El plan no está escrito a mano en la app: se lee del README de OSSU guardado en `fuente/`. Para actualizarlo:
+El plan no está escrito a mano en la app: se lee del README de OSSU guardado en `fuente/`. Las traducciones de los documentos están en `fuente-es/`, con la misma ruta que el original; `npm test` comprueba que cada traducción conserve los encabezados, enlaces, imágenes, tablas y bloques de código del original, y que no quede texto sin traducir. Si actualizas `fuente/`, las pruebas indicarán qué traducciones hay que revisar. Para actualizarlo:
 
 ```bash
 git clone https://github.com/Haise-IDK7/computer-science.git ../computer-science
@@ -67,12 +67,13 @@ Las pruebas avisan si aparece una sección, un tema, un curso o un documento nue
 
 ```
 fuente/            copia de los documentos del repositorio de OSSU (licencia MIT)
+fuente-es/         traducción al español de esos documentos (misma ruta que el original)
 src/core/ossu.js   lee el README y lo convierte en secciones, temas y cursos
 src/data/es.js     textos en español: secciones, objetivos, temas, cursos y resúmenes
 src/guia.md        «Cómo funciona», adaptación al español de la introducción de OSSU
 src/views/         pantallas: inicio, plan, secciones, planificador, temas, documentos, progreso
 electron/          proceso principal de la app de escritorio
-tests/             pruebas del lector del plan y prueba de humo en navegador
+tests/             pruebas del lector del plan, fidelidad de las traducciones y prueba de humo en navegador
 ```
 
 ## Créditos y licencia

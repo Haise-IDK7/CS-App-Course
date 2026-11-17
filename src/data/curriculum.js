@@ -4,10 +4,13 @@ import { parseCurriculum, allCourses } from '../core/ossu.js';
 import * as ES from './es.js';
 
 const docFiles = import.meta.glob('../../fuente/**/*.md', { query: '?raw', import: 'default', eager: true });
+const docFilesEs = import.meta.glob('../../fuente-es/**/*.md', { query: '?raw', import: 'default', eager: true });
 const imgFiles = import.meta.glob('../../fuente/**/*.{png,webp,svg,ico}', { query: '?url', import: 'default', eager: true });
 const strip = (k) => k.replace('../../fuente/', '');
 
 export const DOCS = Object.fromEntries(Object.entries(docFiles).map(([k, v]) => [strip(k), v]));
+// Traducciones al español de los documentos (misma ruta relativa que el original).
+export const DOCS_ES = Object.fromEntries(Object.entries(docFilesEs).map(([k, v]) => [k.replace('../../fuente-es/', ''), v]));
 export const ASSETS = Object.fromEntries(Object.entries(imgFiles).map(([k, v]) => [strip(k), v]));
 export const docInfo = (path) => { const [t, d] = ES.DOCS[path] || [path, '']; return { path, titulo: t, desc: d }; };
 

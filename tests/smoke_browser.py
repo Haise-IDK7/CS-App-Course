@@ -35,6 +35,18 @@ with sync_playwright() as p:
         if page.locator("article.prose").count() == 0: errors.append(f"documento vacío: {d}")
         bad = page.locator("article.prose a[href^='#']:not([href^='#/'])").count()
         if bad: errors.append(f"{bad} enlace(s) interno(s) sin convertir en {d}")
+        if page.locator("article.prose[lang=es]").count() == 0: errors.append(f"documento no mostrado en español: {d}")
+        # Cada enlace a una sección (?a=ancla) del mismo documento debe tener su encabezado de destino.
+        for href in page.locator("article.prose a[href*='?a=']").evaluate_all("els => els.map(e => e.getAttribute('href'))"):
+            target, anchor = href[len('#/doc/'):].split('?a=')
+            if target == d and page.locator(f"[id='h-{anchor}']").count() == 0: errors.append(f"ancla rota en {d}: {anchor}")
+    # Cambiar al original y volver.
+    go("doc/FAQ.md"); page.locator(".doc-en button").click(); page.wait_for_timeout(150)
+    if page.locator("article.prose[lang=en] h1", has_text="Frequently Asked Questions").count() == 0: errors.append("el botón no muestra el original")
+    page.locator(".doc-en button").click(); page.wait_for_timeout(150)
+    if page.locator("article.prose h1", has_text="Preguntas frecuentes").count() == 0: errors.append("el botón no vuelve a la traducción")
+    go("doc/FAQ.md?a=why-is-the-firebase-ossu-app-different-or-broken", 500); shot("faq-ancla")
+    if page.evaluate("document.getElementById('h-why-is-the-firebase-ossu-app-different-or-broken').getBoundingClientRect().top") > 200: errors.append("el ancla de la FAQ no desplaza al encabezado")
     go("planificador"); page.locator(".checks input[type=checkbox]").first.check(); page.wait_for_timeout(200); shot("planificador2")
     go("progreso"); shot("progreso2")
     page.keyboard.press("Control+k"); page.keyboard.type("grafos"); page.wait_for_timeout(200)

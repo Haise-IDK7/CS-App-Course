@@ -125,7 +125,7 @@ export const COURSES = {
   'game-design-and-development-with-unity-2020-specialization': 'Diseño y desarrollo de videojuegos con Unity.'
 };
 
-// Documentos del repositorio: título y resumen en español. El texto completo se muestra en su idioma original (inglés).
+// Documentos del repositorio: título y resumen en español. La traducción completa está en fuente-es/.
 export const DOCS = {
   'README.md': ['Plan de estudios (original)', 'El documento principal de OSSU, del que esta app extrae el plan de estudios.'],
   'FAQ.md': ['Preguntas frecuentes', 'Dudas habituales: si OSSU da un título, cómo repasar las matemáticas previas, en qué orden cursar, si hay que pagar en Coursera o edX, qué son los enlaces alternativos y por qué faltan ciertos temas o prerrequisitos.'],

@@ -1,7 +1,7 @@
 import './styles.css';
 import { h, icon, norm } from './core/dom.js';
 import { state, save, onChange } from './core/store.js';
-import { LEAVES, COURSES, STAGES, STAGE_ORDER, DOCS, docInfo } from './data/curriculum.js';
+import { LEAVES, COURSES, STAGES, STAGE_ORDER, DOCS, DOCS_ES, docInfo } from './data/curriculum.js';
 import { viewHome, viewPlan, viewSection, viewTopics, sectionProgress } from './views/plan.js';
 import { viewPlanner, viewProgress } from './views/planner.js';
 import { viewDocs, viewDoc, viewGuide } from './views/docs.js';
@@ -74,7 +74,7 @@ function searchIndex() {
     items.push({ kind: 'Sección', title: s.es.t, sub: s.es.d, href: `#/seccion/${s.id}`, text: norm(`${s.es.t} ${s.title} ${s.es.d}`) });
     for (const t of s.temas) items.push({ kind: 'Tema', title: t.es, sub: `${t.en}, en ${s.es.t}`, href: `#/seccion/${s.id}`, text: norm(`${t.es} ${t.en}`) });
   }
-  for (const path of Object.keys(DOCS)) { const d = docInfo(path); items.push({ kind: 'Documento', title: d.titulo, sub: d.desc, href: `#/doc/${path}`, text: norm(`${d.titulo} ${d.desc} ${DOCS[path]}`) }); }
+  for (const path of Object.keys(DOCS)) { const d = docInfo(path); items.push({ kind: 'Documento', title: d.titulo, sub: d.desc, href: `#/doc/${path}`, text: norm(`${d.titulo} ${d.desc} ${DOCS_ES[path] || ''} ${DOCS[path]}`) }); }
   return items;
 }
 let index = null;

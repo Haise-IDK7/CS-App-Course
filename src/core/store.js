@@ -5,7 +5,8 @@ const blank = () => ({
   dates: {},    // id de curso -> fecha de finalización (AAAA-MM-DD)
   notes: {},    // id de curso -> apuntes
   plan: { start: null, hours: 20, tracks: [], finals: [], pick: {} },
-  theme: null
+  theme: null,
+  docLang: 'es' // idioma en que se muestran los documentos: 'es' (traducción) o 'en' (original)
 });
 
 function load() {
