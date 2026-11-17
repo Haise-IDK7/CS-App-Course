@@ -1,0 +1,73 @@
+{
+  "name": "cs-app-course",
+  "productName": "Guía CS",
+  "version": "1.0.0",
+  "description": "Guía interactiva del plan de estudios de Ciencias de la Computación de OSSU",
+  "author": "Haise-IDK7",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "main": "electron/main.cjs",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "node --test tests/*.test.mjs",
+    "sync": "node scripts/sync.mjs",
+    "desktop": "npm run build && electron .",
+    "dist": "npm run build && electron-builder",
+    "dist:win": "npm run build && electron-builder --win"
+  },
+  "devDependencies": {
+    "@fontsource-variable/source-serif-4": "^5.2.5",
+    "@fontsource/ibm-plex-mono": "^5.2.5",
+    "@fontsource/ibm-plex-sans": "^5.2.5",
+    "electron": "^39.0.0",
+    "electron-builder": "^26.0.12",
+    "markdown-it": "^14.1.0",
+    "vite": "^7.1.0",
+    "vite-plugin-pwa": "^1.0.3"
+  },
+  "build": {
+    "appId": "io.github.haise-idk7.guiacs",
+    "productName": "Guía CS",
+    "files": [
+      "dist/**/*",
+      "electron/**/*"
+    ],
+    "directories": {
+      "output": "release"
+    },
+    "win": {
+      "target": [
+        "nsis",
+        "portable"
+      ],
+      "icon": "build/icon.png"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "artifactName": "Guia-CS-Instalador.${ext}"
+    },
+    "linux": {
+      "target": [
+        "AppImage"
+      ],
+      "category": "Education",
+      "icon": "build/icon.png",
+      "artifactName": "Guia-CS.${ext}"
+    },
+    "mac": {
+      "target": [
+        "dmg"
+      ],
+      "category": "public.app-category.education",
+      "icon": "build/icon.png",
+      "artifactName": "Guia-CS.${ext}"
+    },
+    "portable": {
+      "artifactName": "Guia-CS-Portable.${ext}"
+    }
+  }
+}
