@@ -32,7 +32,7 @@ El calendario original está disponible [aquí](https://course.ccs.neu.edu/cs251
 
 - La clase 30 aparece fuera de orden. Esto coincide con el calendario original del curso.
 - Puede parecer que faltan algunas clases. Si revisas el sitio web, verás que esto coincide con lo que está disponible en el sitio del curso, y todos los materiales están enlazados arriba.
-- Los vídeos originales de las clases 22, 28 y 30 en el sitio web del curso no funcionan. Por ahora se indican copias archivadas en YouTube para las clases 28 y 30:
+- Los videos originales de las clases 22, 28 y 30 en el sitio web del curso no funcionan. Por ahora se indican copias archivadas en YouTube para las clases 28 y 30:
   - [Clase 28](https://youtube.com/playlist?list=PL_N7YxtCMPydJ-aBr4Ku9-q--D6vheOnp&si=XnBXaZKbBhqdUJgJ)
   - [Clase 30](https://www.youtube.com/watch?v=6WZo7sFFFlQ&list=PL_N7YxtCMPyea2YC3e-1s7SR_S3oWGjdb&index=1)
 - Las tareas de arriba están ligeramente desordenadas respecto al calendario real del curso. Se hizo así para alinear mejor el material de las clases y los laboratorios con el que cubren las tareas. En el curso real, se daban a los estudiantes unos días entre aprender el material en clase y la fecha de entrega de la tarea correspondiente. Si encuentras algún error de orden, es decir, una tarea que necesita material de una clase que aparece después de ella, envía un PR (pull request) para corregir el orden.

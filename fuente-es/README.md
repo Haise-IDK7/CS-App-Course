@@ -420,11 +420,11 @@ Cursos | Duración | Esfuerzo | Prerrequisitos
 [Functional Programming in Scala (Specialization)](https://www.coursera.org/specializations/scala) | 29 semanas | 4-5 horas/semana | un año de experiencia programando
 [Game Design and Development with Unity 2020 (Specialization)](https://www.coursera.org/specializations/game-design-and-development) | 6 meses | 5 horas/semana | programación, diseño interactivo
 
-## Enhorabuena
+## Felicitaciones
 
 Después de completar los requisitos del plan de estudios anterior,
 habrás completado el equivalente a un grado universitario completo en ciencias de la computación.
-¡Enhorabuena!
+¡Felicitaciones!
 
 ¿Qué viene ahora? Las posibilidades son ilimitadas y se solapan entre sí:
 

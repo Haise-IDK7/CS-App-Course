@@ -77,7 +77,7 @@ Puede que tengamos recomendaciones más actualizadas en el [canal de Discord](ht
 
 ### ¿Es necesario comprar la mejora verificada (Verified Upgrade) en los cursos de edX?
 
-Si solo quieres ver los vídeos, nunca es necesario en ningún curso de edX de nuestro plan de estudios. Ten en cuenta que varios cursos de edX solo permiten a los estudiantes acceder como oyentes durante el número estimado de semanas que lleva completarlos. No deberías empezar un curso hasta que estés preparado para concentrarte en él y terminarlo.
+Si solo quieres ver los videos, nunca es necesario en ningún curso de edX de nuestro plan de estudios. Ten en cuenta que varios cursos de edX solo permiten a los estudiantes acceder como oyentes durante el número estimado de semanas que lleva completarlos. No deberías empezar un curso hasta que estés preparado para concentrarte en él y terminarlo.
 
 ### ¿Qué son los enlaces «alt»?
 

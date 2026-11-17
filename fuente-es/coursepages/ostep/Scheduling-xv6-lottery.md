@@ -2,7 +2,7 @@
 
 ### Consejos generales
 
-* Lee el capítulo 9 del libro OSTEP y mira el vídeo de la sesión de discusión 5. Los planificadores por lotería no se tratan en las clases, así que para este proyecto tienes que leer el libro sí o sí.
+* Lee el capítulo 9 del libro OSTEP y mira el video de la sesión de discusión 5. Los planificadores por lotería no se tratan en las clases, así que para este proyecto tienes que leer el libro sí o sí.
 
 * En general, no puedes usar funciones de la biblioteca estándar de C dentro del núcleo, porque el núcleo tiene que inicializarse antes de poder ejecutar binarios de biblioteca.
 

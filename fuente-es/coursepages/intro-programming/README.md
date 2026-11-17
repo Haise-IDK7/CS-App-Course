@@ -15,7 +15,7 @@ Este curso lo ha desarrollado el equipo de CS50 de la Universidad de Harvard.
 
 ### Instrucciones
 
- - Si quieres seguir al profesor mientras programa, inicia sesión en el [«codespace» de CS50](https://cs50.dev) y mira [este vídeo](https://cs50.harvard.edu/python/2022/shorts/visual_studio_code_for_cs50/) para empezar.
+ - Si quieres seguir al profesor mientras programa, inicia sesión en el [«codespace» de CS50](https://cs50.dev) y mira [este video](https://cs50.harvard.edu/python/2022/shorts/visual_studio_code_for_cs50/) para empezar.
  - Mira cada clase y completa el conjunto de problemas correspondiente. Lee los apuntes de la clase para repasar.
  - Si te atascas, no dudes en preguntar. Puedes unirte al chat de OSSU para este curso aquí: <https://discord.gg/cBkssaJy5g>.
  - También puedes unirte al servidor de Discord de CS50 y preguntar allí: <https://discord.gg/cs50>, pero ten en cuenta que no está afiliado a OSSU ni lo mantiene OSSU.
@@ -47,7 +47,7 @@ Este curso lo ha creado el profesor Charles Severance, de la Universidad de Míc
 ### Instrucciones
 
 - Tienes que [iniciar sesión](https://www.py4e.com/) en el sitio web del curso con tu cuenta de Google para acceder a las tareas.
-- Mira todos los vídeos de una lección y después haz sus tareas.
+- Mira todos los videos de una lección y después haz sus tareas.
 - Si prefieres leer libros, puedes leer la versión HTML del capítulo de la lección, enlazada en la página de la lección, o descargar el libro completo en distintos formatos desde [esta página](https://www.py4e.com/book).
 - Si tienes algún problema, no dudes en preguntar. Puedes unirte al chat de OSSU para este curso aquí: <https://discord.gg/syA242Z>.
 - Solo tienes que completar el curso hasta la lección de expresiones regulares. El resto del curso es opcional.

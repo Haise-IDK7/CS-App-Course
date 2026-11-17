@@ -44,7 +44,7 @@ Si eliges esta opción, este será el primer curso del plan de OSSU para el que 
 
 Dicho esto, si puedes dedicar el tiempo que exigen los prerrequisitos, creemos que la recompensa merece mucho la pena: este curso es apasionante, interesante y bastante útil para otros campos de las ciencias de la computación y la programación. Uno de sus grandes atractivos es la oportunidad de ver en acción un sistema operativo tipo Unix simplificado pero totalmente funcional, y de entender los conceptos y las decisiones de diseño que hay detrás, así como los detalles de implementación de bajo nivel.
 
-Debes ver todos los vídeos de las clases o leer los capítulos 1 a 47 del libro de texto (tranquilo, los capítulos suelen tener solo unas pocas páginas), y además terminar los proyectos que se indican más abajo. También te animamos encarecidamente a hacer los ejercicios de tarea a medida que se asignan en el sitio web del curso o en los capítulos del libro; piensa en ellos como las preguntas de «comprueba lo que has entendido» que aparecen en mitad de los vídeos de las clases en sitios como Coursera o edX.
+Debes ver todos los videos de las clases o leer los capítulos 1 a 47 del libro de texto (tranquilo, los capítulos suelen tener solo unas pocas páginas), y además terminar los proyectos que se indican más abajo. También te animamos encarecidamente a hacer los ejercicios de tarea a medida que se asignan en el sitio web del curso o en los capítulos del libro; piensa en ellos como las preguntas de «comprueba lo que has entendido» que aparecen en mitad de los videos de las clases en sitios como Coursera o edX.
 
 ### Prerrequisitos
 
@@ -56,7 +56,7 @@ También deberías terminar las dos partes de Nand2Tetris antes de empezar este 
 
 * [Sitio web del curso](https://pages.cs.wisc.edu/~remzi/Classes/537/Spring2018/)
 * [Libro](https://pages.cs.wisc.edu/~remzi/OSTEP/)
-* [Vídeos de las clases](https://pages.cs.wisc.edu/~remzi/Classes/537/Spring2018/Discussion/videos.html)
+* [Videos de las clases](https://pages.cs.wisc.edu/~remzi/Classes/537/Spring2018/Discussion/videos.html)
 * [Tareas](https://pages.cs.wisc.edu/~remzi/OSTEP/Homework/homework.html)
 * [Repositorio con el código fuente de las tareas](https://github.com/remzi-arpacidusseau/ostep-homework)
 * [Soluciones de las tareas](https://github.com/xxyzz/ostep-hw)
@@ -85,7 +85,7 @@ Este curso lo impartió originalmente el autor del libro OSTEP en la Universidad
 
 ### Cómo ejecutar los proyectos
 
-Este curso lo impartió originalmente el autor del libro OSTEP en la Universidad de Wisconsin, como CS 537, lo que significa que las tareas y los proyectos se escribieron pensando en esos estudiantes y se diseñaron para ejecutarse en los ordenadores de los laboratorios de esa universidad, con versiones concretas de software preinstaladas. Esperamos que esta sección resuelva eso para que puedas ejecutarlos en otros ordenadores, pero no lo hemos probado en todos, así que, si tienes otros problemas, avísanos en el [canal de Discord](https://discord.gg/MJ9YXyV) e intentaremos ayudarte.
+Este curso lo impartió originalmente el autor del libro OSTEP en la Universidad de Wisconsin, como CS 537, lo que significa que las tareas y los proyectos se escribieron pensando en esos estudiantes y se diseñaron para ejecutarse en los computadores de los laboratorios de esa universidad, con versiones concretas de software preinstaladas. Esperamos que esta sección resuelva eso para que puedas ejecutarlos en otros computadores, pero no lo hemos probado en todos, así que, si tienes otros problemas, avísanos en el [canal de Discord](https://discord.gg/MJ9YXyV) e intentaremos ayudarte.
 
 Para ejecutar las tareas y los proyectos en Linux o macOS, necesitas tener instalados todos estos programas:
 
@@ -107,7 +107,7 @@ También tendrás que instalar `qemu`, pero recomendamos usar la versión parche
 
 En macOS tendrás que instalar un conjunto de compilación cruzada de `gcc` capaz de producir binarios ELF para x86; consulta también el enlace de arriba para más detalles.
 
-En Windows puedes usar una máquina virtual con Linux para las tareas y los proyectos. Algunos de estos paquetes todavía no son compatibles con los ordenadores Apple M1, y el software de máquinas virtuales aún no se ha adaptado a la nueva arquitectura de procesador; algunos estudiantes han usado un VPS (servidor privado virtual) para hacer las tareas y los proyectos.
+En Windows puedes usar una máquina virtual con Linux para las tareas y los proyectos. Algunos de estos paquetes todavía no son compatibles con los computadores Apple M1, y el software de máquinas virtuales aún no se ha adaptado a la nueva arquitectura de procesador; algunos estudiantes han usado un VPS (servidor privado virtual) para hacer las tareas y los proyectos.
 
 A continuación, clona los repositorios `ostep-homework` y `ostep-projects`:
 ```sh
@@ -185,7 +185,7 @@ Sin embargo, ese libro pasa por alto muchos detalles del código que pueden resu
 
 [Aquí](https://github.com/YehudaShapira/xv6-explained) tienes otra explicación detallada del código de xv6.
 
-Y [aquí](https://www.youtube.com/playlist?list=PLbtzT1TYeoMhTPzyTZboW_j7TPAnjv9XB) hay una excelente serie de vídeos que recorre gran parte del código de xv6.
+Y [aquí](https://www.youtube.com/playlist?list=PLbtzT1TYeoMhTPzyTZboW_j7TPAnjv9XB) hay una excelente serie de videos que recorre gran parte del código de xv6.
 
 #### Varios
 

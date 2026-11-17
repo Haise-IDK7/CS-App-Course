@@ -16,7 +16,7 @@ Este curso está en revisión. El curso se diseñó para personas que nunca han 
 
 1. Abre el [enlace al curso](https://ocw.mit.edu/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/pages/material-by-lecture/) indicado arriba. Verás una lista de clases.
 2. Al hacer clic en el enlace de una clase, verás todos los materiales de esa clase.
-3. Avanza por todas las clases del curso tal como aparecen en el enlace de arriba. Mira los vídeos, haz los ejercicios breves de práctica (*finger exercises*) y después resuelve los conjuntos de problemas.
+3. Avanza por todas las clases del curso tal como aparecen en el enlace de arriba. Mira los videos, haz los ejercicios breves de práctica (*finger exercises*) y después resuelve los conjuntos de problemas.
 4. No se espera que completes los conjuntos de problemas en cuanto aparecen en la página de una clase. Se espera que empieces a pensar en ellos a partir de ese momento. Las fechas de entrega reales, según el [calendario del curso](https://ocw.mit.edu/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/pages/calendar/), son:
 
    - PSET 0: antes de la clase 1
@@ -39,7 +39,7 @@ Este curso está en revisión. El curso se diseñó para personas que nunca han 
 2. Puedes usar VS Code o cualquier editor de texto o IDE que prefieras. Si usas un editor o IDE distinto de Spyder/Anaconda, ten en cuenta que a veces el curso te pide ejecutar algunas sentencias adicionales después de ejecutar un archivo de Python. Para hacerlo, ejecuta `python -i file.py`. Así podrás ejecutar sentencias adicionales. 
 3. No recibirás ningún certificado por hacer este curso. Si de verdad quieres un certificado, tienes que hacer en edX el [curso 6.00.1x](https://www.edx.org/course/introduction-to-computer-science-and-programming-7), más rápido y con el ritmo marcado por el profesor. El certificado de un curso introductorio como este no es muy valioso, así que, salvo que lo tengas muy claro, te recomendamos hacer en su lugar el curso 6.100L enlazado arriba.
 4. Si por algún motivo quieres hacer la versión de OCW del curso 6.0001, de ritmo más rápido, puedes hacerlo aquí: <https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/>.
-5. El curso indica como lectura obligatoria el libro de texto [Introduction to Computation and Programming Using Python, third edition](https://mitpress.mit.edu/9780262542364/introduction-to-computation-and-programming-using-python/). Como con cualquier curso de OSSU, recuerda: todo complemento de pago debe considerarse opcional. No suspenderás este curso si no lees el libro. «El libro y las clases del curso van en paralelo, aunque el libro da más detalle sobre algunos temas». No te pierdes tanto como para que importe.
+5. El curso indica como lectura obligatoria el libro de texto [Introduction to Computation and Programming Using Python, third edition](https://mitpress.mit.edu/9780262542364/introduction-to-computation-and-programming-using-python/). Como con cualquier curso de OSSU, recuerda: todo complemento de pago debe considerarse opcional. No reprobarás este curso si no lees el libro. «El libro y las clases del curso van en paralelo, aunque el libro da más detalle sobre algunos temas». No te pierdes tanto como para que importe.
 
 ## Práctica adicional
 

@@ -11,7 +11,7 @@
 
 ### Consejos
 
-* Mira el vídeo de la sesión de discusión 3 sobre la shell de Unix.
+* Mira el video de la sesión de discusión 3 sobre la shell de Unix.
 * Lee el capítulo 5 del libro OSTEP.
 * Empieza implementando una shell que haga una sola cosa: mostrar el indicador (*prompt*) y salir cuando escribas `exit`. Después añade `cd` y luego `path`. A continuación implementa la capacidad de ejecutar comandos con `execv`; después añade el modo por lotes, luego la redirección y, por último, los comandos en paralelo.
 * Todos los scripts de prueba usan el modo por lotes y la redirección, así que, hasta que los tengas hechos, tendrás que probar tu shell a mano.

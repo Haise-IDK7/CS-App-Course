@@ -23,10 +23,10 @@ Consulta las preguntas frecuentes de más abajo para saber por qué hay distinta
 **Nota:** estas instrucciones son para la versión archivada del curso en edX, que es la que recomendamos. No se aplican a otras versiones del curso.
 
 - El curso no tiene página de inicio en edX, pero no te preocupes. Abre el [enlace](https://learning.edx.org/course/course-v1:UBCx+SPD1x+2T2015) indicado arriba, inicia sesión (si no la has iniciado) y después inscríbete en el curso.
-- Avanza de la semana 1A a la semana 6A tal como aparecen en el resumen del curso. Mira los vídeos, haz los ejercicios y después resuelve los problemas del banco de problemas.
+- Avanza de la semana 1A a la semana 6A tal como aparecen en el resumen del curso. Mira los videos, haz los ejercicios y después resuelve los problemas del banco de problemas.
 - Cuando completes la semana 6A, haz el proyecto Space Invaders con [estas instrucciones](./space-invaders-instructions.md).
-- Después, avanza de la semana 6B en adelante. Mira los vídeos, haz los ejercicios y después resuelve los problemas del banco de problemas.
-- Luego, mira los vídeos adicionales de [esta lista de reproducción](https://www.youtube.com/playlist?list=PL6NenTZG6KrqdcyTwGf09uBxjI5pbXuT7).
+- Después, avanza de la semana 6B en adelante. Mira los videos, haz los ejercicios y después resuelve los problemas del banco de problemas.
+- Luego, mira los videos adicionales de [esta lista de reproducción](https://www.youtube.com/playlist?list=PL6NenTZG6KrqdcyTwGf09uBxjI5pbXuT7).
 - Cuando completes todos los módulos del curso, haz el [problema TA solver](https://github.com/ossu/spd-starters/blob/main/final/ta-solver-starter.rkt). Encontrarás las instrucciones en el archivo inicial.
 - La pestaña del banco de problemas tiene muchos problemas adicionales. Te sugerimos resolverlos todos para afianzar lo que has entendido.
 - Algunos enlaces a los archivos iniciales del curso ya no funcionan. Puedes descargar los archivos iniciales desde este repositorio de GitHub: <https://github.com/ossu/spd-starters>. Puedes descargar un archivo zip con todos los archivos iniciales con [este enlace](https://github.com/ossu/spd-starters/archive/refs/heads/main.zip).
@@ -51,7 +51,7 @@ Consulta las preguntas frecuentes de más abajo para saber por qué hay distinta
 
 - Si usas Windows o Linux, usa Alt + Retroceso para borrar palabras completas.
 
-- Si por algún motivo no puedes ver los vídeos en edX, puedes verlos en [este canal de YouTube](https://www.youtube.com/@systematicprogramdesign7962/playlists).
+- Si por algún motivo no puedes ver los videos en edX, puedes verlos en [este canal de YouTube](https://www.youtube.com/@systematicprogramdesign7962/playlists).
 
 ## Preguntas frecuentes
 
@@ -71,7 +71,7 @@ Este curso usa un lenguaje didáctico, de usar y tirar, precisamente para que no
 
 Puede parecer duro aprender un lenguaje nuevo solo para hacer este curso, pero BSL te libera de preocuparte por las reglas de estilo, los problemas en tiempo de ejecución, la compartimentación del código, la compilación o el entorno de programación. Es un regalo. Acéptalo. Los patrones de diseño ya son bastante difíciles.
 
-### ¿Por qué hay distintas versiones del curso, HTC y SPD? ¿Por qué recomendáis la versión archivada?
+### ¿Por qué hay distintas versiones del curso, HTC y SPD? ¿Por qué recomiendan la versión archivada?
 
 Hay dos motivos por los que la gente hace estos cursos:
 
