@@ -1,0 +1,86 @@
+# Introducción a la programación
+
+Si te cuesta seguir el [curso Intro CS](../intro-cs/README.md), empieza aquí. Estos cursos son a tu propio ritmo, así que puedes ajustar las horas que dedicas cada semana a tus necesidades.
+
+Tienes que hacer **solo UNO** de los siguientes cursos.
+
+## CS50P: Introduction to Programming with Python
+
+Este curso lo ha desarrollado el equipo de CS50 de la Universidad de Harvard.
+> Una introducción a la programación con un lenguaje llamado Python. Aprende a leer y escribir código, y también a probarlo y «depurarlo». Está pensado para estudiantes con o sin experiencia previa en programación que quieran aprender Python en concreto. Aprende sobre funciones, argumentos y valores de retorno (¡vaya!); variables y tipos; condicionales y expresiones booleanas; y bucles. Aprende a manejar excepciones, encontrar y corregir errores y escribir pruebas unitarias; a usar bibliotecas de terceros; a validar y extraer datos con expresiones regulares; a modelar entidades del mundo real con clases, objetos, métodos y propiedades; y a leer y escribir archivos. Muchas oportunidades prácticas para ejercitarte. Ejercicios inspirados en problemas de programación del mundo real. No hace falta ningún software salvo un navegador web, aunque también puedes escribir código en tu propio PC o Mac.
+
+**Enlace**: <https://cs50.harvard.edu/python/>
+
+**Nota**: este curso es *distinto* de CS50 o CS50x. CS50 no forma parte del plan de estudios de OSSU. Dicho esto, si ya completaste CS50, puedes saltarte este curso y pasar al siguiente.
+
+### Instrucciones
+
+ - Si quieres seguir al profesor mientras programa, inicia sesión en el [«codespace» de CS50](https://cs50.dev) y mira [este vídeo](https://cs50.harvard.edu/python/2022/shorts/visual_studio_code_for_cs50/) para empezar.
+ - Mira cada clase y completa el conjunto de problemas correspondiente. Lee los apuntes de la clase para repasar.
+ - Si te atascas, no dudes en preguntar. Puedes unirte al chat de OSSU para este curso aquí: <https://discord.gg/cBkssaJy5g>.
+ - También puedes unirte al servidor de Discord de CS50 y preguntar allí: <https://discord.gg/cs50>, pero ten en cuenta que no está afiliado a OSSU ni lo mantiene OSSU.
+
+### Materiales del curso
+
+0. [Funciones, variables](https://cs50.harvard.edu/python/2022/weeks/0/) — [Apuntes](https://cs50.harvard.edu/python/2022/notes/0/) — [Conjunto de problemas](https://cs50.harvard.edu/python/2022/psets/0/)
+1. [Condicionales](https://cs50.harvard.edu/python/2022/weeks/1/) — [Apuntes](https://cs50.harvard.edu/python/2022/notes/1/) — [Conjunto de problemas](https://cs50.harvard.edu/python/2022/psets/1/)
+2. [Bucles](https://cs50.harvard.edu/python/2022/weeks/2/) — [Apuntes](https://cs50.harvard.edu/python/2022/notes/2/) — [Conjunto de problemas](https://cs50.harvard.edu/python/2022/psets/2/)
+3. [Excepciones](https://cs50.harvard.edu/python/2022/weeks/3/) — [Apuntes](https://cs50.harvard.edu/python/2022/notes/3/) — [Conjunto de problemas](https://cs50.harvard.edu/python/2022/psets/3/)
+4. [Bibliotecas](https://cs50.harvard.edu/python/2022/weeks/4/) — [Apuntes](https://cs50.harvard.edu/python/2022/notes/4/) — [Conjunto de problemas](https://cs50.harvard.edu/python/2022/psets/4/)
+5. [Pruebas unitarias](https://cs50.harvard.edu/python/2022/weeks/5/) — [Apuntes](https://cs50.harvard.edu/python/2022/notes/5/) — [Conjunto de problemas](https://cs50.harvard.edu/python/2022/psets/5/)
+6. [Entrada/salida de archivos](https://cs50.harvard.edu/python/2022/weeks/6/) — [Apuntes](https://cs50.harvard.edu/python/2022/notes/6/) — [Conjunto de problemas](https://cs50.harvard.edu/python/2022/psets/6/)
+7. [Expresiones regulares](https://cs50.harvard.edu/python/2022/weeks/7/) — [Apuntes](https://cs50.harvard.edu/python/2022/notes/7/) — [Conjunto de problemas](https://cs50.harvard.edu/python/2022/psets/7/)
+8. [Programación orientada a objetos](https://cs50.harvard.edu/python/2022/weeks/8/) — [Apuntes](https://cs50.harvard.edu/python/2022/notes/8/) — [Conjunto de problemas](https://cs50.harvard.edu/python/2022/psets/8/)
+9. [Etcétera](https://cs50.harvard.edu/python/2022/weeks/9/) — [Apuntes](https://cs50.harvard.edu/python/2022/notes/9/) — [Proyecto final](https://cs50.harvard.edu/python/2022/project/)
+
+## Python for Everybody
+
+Este curso lo ha creado el profesor Charles Severance, de la Universidad de Míchigan.
+> Aprende a programar y a analizar datos con Python. Desarrolla programas para recopilar, limpiar, analizar y visualizar datos.
+
+**Enlace**: <https://www.py4e.com/lessons>
+
+**Libro de texto**: [PDF](http://do1.dr-chuck.com/pythonlearn/EN_us/pythonlearn.pdf) / [EPUB](http://do1.dr-chuck.com/pythonlearn/EN_us/pythonlearn.epub) / [HTML](https://www.py4e.com/html3) / [Comprar en papel](https://www.py4e.com/book)
+
+**Nota**: este curso también se ofrece en Coursera y edX. En esas plataformas hay que pagar para acceder a la versión completa del curso. Te sugerimos hacerlo en su propio sitio web, que es totalmente gratuito.
+
+### Instrucciones
+
+- Tienes que [iniciar sesión](https://www.py4e.com/) en el sitio web del curso con tu cuenta de Google para acceder a las tareas.
+- Mira todos los vídeos de una lección y después haz sus tareas.
+- Si prefieres leer libros, puedes leer la versión HTML del capítulo de la lección, enlazada en la página de la lección, o descargar el libro completo en distintos formatos desde [esta página](https://www.py4e.com/book).
+- Si tienes algún problema, no dudes en preguntar. Puedes unirte al chat de OSSU para este curso aquí: <https://discord.gg/syA242Z>.
+- Solo tienes que completar el curso hasta la lección de expresiones regulares. El resto del curso es opcional.
+
+### Materiales del curso
+
+1. [Instalar Python](https://www.py4e.com/lessons/install)
+2. [¿Por qué programar?](https://www.py4e.com/lessons/intro)
+3. [Variables, expresiones y sentencias](https://www.py4e.com/lessons/memory)
+4. [Ejecución condicional](https://www.py4e.com/lessons/logic)
+5. [Funciones](https://www.py4e.com/lessons/functions)
+6. [Bucles e iteraciones](https://www.py4e.com/lessons/loops)
+7. [Cadenas](https://www.py4e.com/lessons/strings)
+8. [Archivos](https://www.py4e.com/lessons/files)
+9. [Listas](https://www.py4e.com/lessons/lists)
+10. [Diccionarios](https://www.py4e.com/lessons/dictionary)
+11. [Tuplas](https://www.py4e.com/lessons/tuples)
+12. [Expresiones regulares](https://www.py4e.com/lessons/regex)
+13. [Programación de red](https://www.py4e.com/lessons/network) (opcional)
+14. [Uso de servicios web](https://www.py4e.com/lessons/servces) (opcional)
+15. [Programación orientada a objetos](https://www.py4e.com/lessons/Objects) (opcional)
+16. [Bases de datos](https://www.py4e.com/lessons/database) (opcional)
+17. [Visualización de datos](https://www.py4e.com/lessons/dataviz) (opcional)
+
+### Correcciones
+
+1. Si estás haciendo la lección de BeautifulSoup4, hay un problema con Python 3.10 o posterior que produce un error relacionado con la biblioteca Collections. Tenemos una solución. No esperamos que la entiendas; simplemente pon esto al principio de tu código, en el bloque de importaciones:
+
+```python
+import collections
+collections.Callable = collections.abc.Callable
+
+from bs4 import BeautifulSoup 
+```
+
+Con esto debería resolverse el problema de compatibilidad y tu código debería ejecutarse.

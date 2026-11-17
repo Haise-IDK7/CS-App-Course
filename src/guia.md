@@ -66,4 +66,4 @@ Al completar los requisitos habrás cubierto el equivalente a un grado completo 
 
 ## Sobre esta app
 
-El plan de estudios y los documentos proceden del repositorio de OSSU (licencia MIT), en la versión incluida con la app. Los textos en español (descripciones, objetivos y resúmenes) son una adaptación; los documentos de apoyo se muestran completos en su idioma original, el inglés. Los cursos enlazados también están en inglés: es el idioma de trabajo de la disciplina, y la mayoría ofrece subtítulos.
+El plan de estudios y los documentos proceden del repositorio de OSSU (licencia MIT), en la versión incluida con la app. Los textos en español (descripciones, objetivos y resúmenes) son una adaptación. Los 21 documentos de apoyo están traducidos completos al español; en cada uno puedes cambiar al original en inglés, que es la referencia si alguna frase te genera dudas. Los nombres de cursos y libros, el código y los comandos se dejan como en el original. Los cursos enlazados también están en inglés: es el idioma de trabajo de la disciplina, y la mayoría ofrece subtítulos.
